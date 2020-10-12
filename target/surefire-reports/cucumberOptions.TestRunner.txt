@@ -1,0 +1,68 @@
+-------------------------------------------------------------------------------
+Test set: cucumberOptions.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 2, Skipped: 1, Time elapsed: 6.515 s <<< FAILURE! - in cucumberOptions.TestRunner
+Scenario: Get The Details from Dynamic Table.Given User is on Home Page of Dynamic Table  Time elapsed: 0.003 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 84
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'AKSHAY', ip: '192.168.202.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x004787E3+2852835]
+	Ordinal0 [0x00365BB1+1727409]
+	Ordinal0 [0x0023E4B9+517305]
+	Ordinal0 [0x001D0BA0+68512]
+	Ordinal0 [0x001CD3A0+54176]
+	Ordinal0 [0x001ED9F7+186871]
+	Ordinal0 [0x001ED7FD+186365]
+	Ordinal0 [0x001EB70B+177931]
+	Ordinal0 [0x001D2584+75140]
+	Ordinal0 [0x001D3650+79440]
+	Ordinal0 [0x001D35E9+79337]
+	Ordinal0 [0x0037AD5C+1813852]
+	GetHandleVerifier [0x0059C616+1075574]
+	GetHandleVerifier [0x0059C367+1074887]
+	GetHandleVerifier [0x005A7497+1120247]
+	GetHandleVerifier [0x0059CC16+1077110]
+	Ordinal0 [0x00373206+1782278]
+	Ordinal0 [0x0037C3BB+1819579]
+	Ordinal0 [0x0037C523+1819939]
+	Ordinal0 [0x00392B45+1911621]
+	BaseThreadInitThunk [0x75CF6359+25]
+	RtlGetAppContainerNamedObjectPath [0x77287C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77287BF4+180]
+
+
+Scenario: Get The Details from Dynamic Table  Time elapsed: 0.004 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 84
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'AKSHAY', ip: '192.168.202.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x004787E3+2852835]
+	Ordinal0 [0x00365BB1+1727409]
+	Ordinal0 [0x0023E4B9+517305]
+	Ordinal0 [0x001D0BA0+68512]
+	Ordinal0 [0x001CD3A0+54176]
+	Ordinal0 [0x001ED9F7+186871]
+	Ordinal0 [0x001ED7FD+186365]
+	Ordinal0 [0x001EB70B+177931]
+	Ordinal0 [0x001D2584+75140]
+	Ordinal0 [0x001D3650+79440]
+	Ordinal0 [0x001D35E9+79337]
+	Ordinal0 [0x0037AD5C+1813852]
+	GetHandleVerifier [0x0059C616+1075574]
+	GetHandleVerifier [0x0059C367+1074887]
+	GetHandleVerifier [0x005A7497+1120247]
+	GetHandleVerifier [0x0059CC16+1077110]
+	Ordinal0 [0x00373206+1782278]
+	Ordinal0 [0x0037C3BB+1819579]
+	Ordinal0 [0x0037C523+1819939]
+	Ordinal0 [0x00392B45+1911621]
+	BaseThreadInitThunk [0x75CF6359+25]
+	RtlGetAppContainerNamedObjectPath [0x77287C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77287BF4+180]
+
+

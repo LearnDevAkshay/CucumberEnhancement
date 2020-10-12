@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Cucumber_Framework.Cucumber_Framework_Design.AppTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in Cucumber_Framework.Cucumber_Framework_Design.AppTest

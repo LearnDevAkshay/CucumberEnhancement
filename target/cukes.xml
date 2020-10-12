@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="20.129626">
+<testcase classname="Handle Dynamic Table" name="Get The Details from Dynamic Table" time="10.8854">
+<system-out><![CDATA[Given User is on Home Page of Dynamic Table.................................passed
+Then Get the Details........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search and place order for vegitable" name="Serach for vegatble and validate" time="9.244226">
+<system-out><![CDATA[Given User is on home page..................................................passed
+When User enter the "Cucumber" in search box................................passed
+Then "Cucumber" result should be dispalyed..................................passed
+]]></system-out>
+</testcase>
+</testsuite>
