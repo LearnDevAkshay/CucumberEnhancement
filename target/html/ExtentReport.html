@@ -32,7 +32,6 @@
 		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
 			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
 						<li class='waves-effect'><a href='#!' view='category-view' onclick="configureView(1)"><i class='material-icons'>label_outline</i></a></li>
-			<li class='waves-effect'><a href='#!' view='exception-view' onclick="configureView(2)"><i class='material-icons'>bug_report</i></a></li>
 			<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></i></a></li>
 		</ul>
 
@@ -46,7 +45,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Oct 12, 2020 03:43:42 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Oct 12, 2020 09:47:03 PM</span>
 				</a>
 			</li>
 			<li>
@@ -71,8 +70,7 @@
 					<i class='material-icons'>warning</i> Status
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
-											<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
-						<li status='skip'><a href='#!'>Skip <i class='material-icons cyan-text'>redo</i></a></li>
+											<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -134,10 +132,10 @@
 					<canvas id='parent-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='0%'><span class='strong'>0</span> test(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>5</span> test(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='40%'>2</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='60%'>3</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -149,10 +147,10 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='0%'><span class='strong'>0</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>5</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='40%'>2</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='60%'>3</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -167,34 +165,34 @@
 			<ul id='test-collection' class='test-collection'>
 				
 				
-				<li class='test displayed active has-leaf fail' status='fail' bdd='false' test-id='1'>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Handle Dynamic Table</span>
-						<span class='test-time'>Oct 12, 2020 03:43:42 PM</span>
-						<span class='test-status right fail'>fail</span>
+						<span class='test-time'>Oct 12, 2020 09:47:04 PM</span>
+						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Oct 12, 2020 03:43:42 PM</span>
-	<span class='label end-time'>Oct 12, 2020 03:44:11 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 29s+599ms</span>
+	<span class='label start-time'>Oct 12, 2020 09:47:04 PM</span>
+	<span class='label end-time'>Oct 12, 2020 09:47:16 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 12s+480ms</span>
 </div>
 	<ul class='collapsible node-list' data-collapsible='accordion'>
 		
-				<li class='node level-1  fail' status='fail' test-id='2'>
+				<li class='node level-1  pass' status='pass' test-id='2'>
 					<div class='collapsible-header'>
 						<div class='node-name'>Scenario: Get The Details from Dynamic Table</div>						
-						<span class='node-time'>Oct 12, 2020 03:43:42 PM</span>
-						<span class='node-duration'>0h 0m 29s+560ms</span>
-						<span class='test-status right fail'>fail</span>
+						<span class='node-time'>Oct 12, 2020 09:47:04 PM</span>
+						<span class='node-duration'>0h 0m 12s+429ms</span>
+						<span class='test-status right pass'>pass</span>
 					</div>
 						<ul class='collapsible node-list' data-collapsible='accordion'>
-				<li class='node level-2 leaf fail' status='fail' test-id='3'>
+				<li class='node level-2 leaf pass' status='pass' test-id='3'>
 					<div class='collapsible-header'>
 						<div class='node-name'>Given User is on Home Page of Dynamic Table</div>						
-						<span class='node-time'>Oct 12, 2020 03:43:42 PM</span>
-						<span class='node-duration'>0h 0m 29s+543ms</span>
-						<span class='test-status right fail'>fail</span>
+						<span class='node-time'>Oct 12, 2020 09:47:04 PM</span>
+						<span class='node-duration'>0h 0m 10s+691ms</span>
+						<span class='test-status right pass'>pass</span>
 					</div>
 						<div class='collapsible-body'>
 								<div class='node-steps'>
@@ -207,43 +205,22 @@
 											</tr>
 										</thead>
 										<tbody>
-												<tr class='log' status='fail'>
-													<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-													<td class='timestamp'>3:44:11 PM</td>
-													<td class='step-details'><pre>org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
-from disconnected: received Inspector.detached event
-  (Session info: chrome=86.0.4240.75)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'AKSHAY', ip: '192.168.202.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\AKSHAY\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57119}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: ac27b79c02d3f9c3903cd1d3c865532c
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-	at StepDefinations.DynamicTableStepDefination.user_is_on_Home_Page_of_Dynamic_Table(DynamicTableStepDefination.java:23)
-	at ✽.Given User is on Home Page of Dynamic Table(dynamicTable.feature:5)
-</pre></td>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>9:47:14 PM</td>
+													<td class='step-details'>passed</td>
 												</tr>
 										</tbody>
 									</table>
 								</div>
 						</div>
 				</li>
-				<li class='node level-2 leaf skip' status='skip' test-id='4'>
+				<li class='node level-2 leaf pass' status='pass' test-id='4'>
 					<div class='collapsible-header'>
 						<div class='node-name'>Then Get the Details</div>						
-						<span class='node-time'>Oct 12, 2020 03:44:11 PM</span>
-						<span class='node-duration'>0h 0m 0s+3ms</span>
-						<span class='test-status right skip'>skip</span>
+						<span class='node-time'>Oct 12, 2020 09:47:14 PM</span>
+						<span class='node-duration'>0h 0m 1s+717ms</span>
+						<span class='test-status right pass'>pass</span>
 					</div>
 						<div class='collapsible-body'>
 								<div class='node-steps'>
@@ -256,10 +233,10 @@ Session ID: ac27b79c02d3f9c3903cd1d3c865532c
 											</tr>
 										</thead>
 										<tbody>
-												<tr class='log' status='skip'>
-													<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
-													<td class='timestamp'>3:44:11 PM</td>
-													<td class='step-details'>skipped</td>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>9:47:16 PM</td>
+													<td class='step-details'>passed</td>
 												</tr>
 										</tbody>
 									</table>
@@ -273,34 +250,34 @@ Session ID: ac27b79c02d3f9c3903cd1d3c865532c
 				</li>
 				
 				
-				<li class='test displayed active has-leaf fail' status='fail' bdd='false' test-id='5'>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='5'>
 					<div class='test-heading'>
 						<span class='test-name'>Search and place order for vegitable</span>
-						<span class='test-time'>Oct 12, 2020 03:44:11 PM</span>
-						<span class='test-status right fail'>fail</span>
+						<span class='test-time'>Oct 12, 2020 09:47:16 PM</span>
+						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Oct 12, 2020 03:44:11 PM</span>
-	<span class='label end-time'>Oct 12, 2020 03:44:16 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 4s+336ms</span>
+	<span class='label start-time'>Oct 12, 2020 09:47:16 PM</span>
+	<span class='label end-time'>Oct 12, 2020 09:47:24 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 8s+154ms</span>
 </div>
 	<ul class='collapsible node-list' data-collapsible='accordion'>
 		
-				<li class='node level-1  fail' status='fail' test-id='6'>
+				<li class='node level-1  pass' status='pass' test-id='6'>
 					<div class='collapsible-header'>
 						<div class='node-name'>Scenario: Serach for vegatble and validate</div>						
-						<span class='node-time'>Oct 12, 2020 03:44:11 PM</span>
-						<span class='node-duration'>0h 0m 4s+335ms</span>
-						<span class='test-status right fail'>fail</span>
+						<span class='node-time'>Oct 12, 2020 09:47:16 PM</span>
+						<span class='node-duration'>0h 0m 8s+153ms</span>
+						<span class='test-status right pass'>pass</span>
 					</div>
 						<ul class='collapsible node-list' data-collapsible='accordion'>
-				<li class='node level-2 leaf fail' status='fail' test-id='7'>
+				<li class='node level-2 leaf pass' status='pass' test-id='7'>
 					<div class='collapsible-header'>
 						<div class='node-name'>Given User is on home page</div>						
-						<span class='node-time'>Oct 12, 2020 03:44:11 PM</span>
-						<span class='node-duration'>0h 0m 4s+333ms</span>
-						<span class='test-status right fail'>fail</span>
+						<span class='node-time'>Oct 12, 2020 09:47:16 PM</span>
+						<span class='node-duration'>0h 0m 5s+345ms</span>
+						<span class='test-status right pass'>pass</span>
 					</div>
 						<div class='collapsible-body'>
 								<div class='node-steps'>
@@ -313,42 +290,22 @@ Session ID: ac27b79c02d3f9c3903cd1d3c865532c
 											</tr>
 										</thead>
 										<tbody>
-												<tr class='log' status='fail'>
-													<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-													<td class='timestamp'>3:44:16 PM</td>
-													<td class='step-details'><pre>org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
-  (Session info: chrome=86.0.4240.75)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'AKSHAY', ip: '192.168.202.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\AKSHAY\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57133}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: fa0252569b9dd788a4de4e6201f0c2e2
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-	at StepDefinations.SearchStepDefination.user_is_on_home_page(SearchStepDefination.java:23)
-	at ✽.Given User is on home page(search.feature:5)
-</pre></td>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>9:47:21 PM</td>
+													<td class='step-details'>passed</td>
 												</tr>
 										</tbody>
 									</table>
 								</div>
 						</div>
 				</li>
-				<li class='node level-2 leaf skip' status='skip' test-id='8'>
+				<li class='node level-2 leaf pass' status='pass' test-id='8'>
 					<div class='collapsible-header'>
 						<div class='node-name'>When User enter the "Cucumber" in search box</div>						
-						<span class='node-time'>Oct 12, 2020 03:44:16 PM</span>
-						<span class='node-duration'>0h 0m 0s+0ms</span>
-						<span class='test-status right skip'>skip</span>
+						<span class='node-time'>Oct 12, 2020 09:47:21 PM</span>
+						<span class='node-duration'>0h 0m 2s+716ms</span>
+						<span class='test-status right pass'>pass</span>
 					</div>
 						<div class='collapsible-body'>
 								<div class='node-steps'>
@@ -361,22 +318,25 @@ Session ID: fa0252569b9dd788a4de4e6201f0c2e2
 											</tr>
 										</thead>
 										<tbody>
-												<tr class='log' status='skip'>
-													<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
-													<td class='timestamp'>3:44:16 PM</td>
-													<td class='step-details'>skipped</td>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>9:47:24 PM</td>
+													<td class='step-details'>passed</td>
 												</tr>
 										</tbody>
 									</table>
+										<ul class='screenshots'>
+												<li><img data-featherlight='C:\Users\AKSHAY\eclipse-workspace\Cucumber_Framework_Design/FailedTestsScreenshots/TestScreenShot20201012094723.png' width='10%' src='' data-src='C:\Users\AKSHAY\eclipse-workspace\Cucumber_Framework_Design/FailedTestsScreenshots/TestScreenShot20201012094723.png'></li>
+										</ul>
 								</div>
 						</div>
 				</li>
-				<li class='node level-2 leaf skip' status='skip' test-id='9'>
+				<li class='node level-2 leaf pass' status='pass' test-id='9'>
 					<div class='collapsible-header'>
 						<div class='node-name'>Then "Cucumber" result should be dispalyed</div>						
-						<span class='node-time'>Oct 12, 2020 03:44:16 PM</span>
-						<span class='node-duration'>0h 0m 0s+1ms</span>
-						<span class='test-status right skip'>skip</span>
+						<span class='node-time'>Oct 12, 2020 09:47:24 PM</span>
+						<span class='node-duration'>0h 0m 0s+89ms</span>
+						<span class='test-status right pass'>pass</span>
 					</div>
 						<div class='collapsible-body'>
 								<div class='node-steps'>
@@ -389,10 +349,10 @@ Session ID: fa0252569b9dd788a4de4e6201f0c2e2
 											</tr>
 										</thead>
 										<tbody>
-												<tr class='log' status='skip'>
-													<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
-													<td class='timestamp'>3:44:16 PM</td>
-													<td class='step-details'>skipped</td>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>9:47:24 PM</td>
+													<td class='step-details'>passed</td>
 												</tr>
 										</tbody>
 									</table>
@@ -458,13 +418,13 @@ Session ID: fa0252569b9dd788a4de4e6201f0c2e2
 					<div class='category-heading'>
 						<span class='category-name'>@Pratice</span>
 						<span class='category-status right'>
-							<span class='label fail'>1</span>
+							<span class='label pass'>1</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
+							<span class='label green accent-4 white-text'>Passed: 1</span>
 							
-							<span class='label red lighten-1 white-text'>Failed: 1</span>
 							
 						</div>
 					
@@ -479,9 +439,9 @@ Session ID: fa0252569b9dd788a4de4e6201f0c2e2
 								</thead>
 								<tbody>
 									<tr>
-										<td>Oct 12, 2020 03:43:42 PM</td>
+										<td>Oct 12, 2020 09:47:04 PM</td>
 										<td class='linked' test-id='2'>Handle Dynamic Table.Scenario: Get The Details from Dynamic Table</td>
-										<td><span class='test-status fail'>fail</span></td>
+										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
 							</table>
@@ -492,13 +452,13 @@ Session ID: fa0252569b9dd788a4de4e6201f0c2e2
 					<div class='category-heading'>
 						<span class='category-name'>@smokeTest</span>
 						<span class='category-status right'>
-							<span class='label fail'>1</span>
+							<span class='label pass'>1</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
+							<span class='label green accent-4 white-text'>Passed: 1</span>
 							
-							<span class='label red lighten-1 white-text'>Failed: 1</span>
 							
 						</div>
 					
@@ -513,9 +473,9 @@ Session ID: fa0252569b9dd788a4de4e6201f0c2e2
 								</thead>
 								<tbody>
 									<tr>
-										<td>Oct 12, 2020 03:44:11 PM</td>
+										<td>Oct 12, 2020 09:47:16 PM</td>
 										<td class='linked' test-id='6'>Search and place order for vegitable.Scenario: Serach for vegatble and validate</td>
-										<td><span class='test-status fail'>fail</span></td>
+										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
 							</table>
@@ -534,113 +494,6 @@ Session ID: fa0252569b9dd788a4de4e6201f0c2e2
 	</div>
 </div>
 <!-- category view -->
-<div id='exception-view' class='view hide'>
-
-    <section id='controls'>
-        <div class='controls grey lighten-4'>
-            <!-- search -->
-            <div class='chip transparent' alt='Search Tests' title='Search Tests'>
-                <a href="#" class='search-div'>
-                    <i class='material-icons'>search</i> Search
-                </a>
-
-                <div class='input-field left hide'>
-                    <input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
-                </div>
-
-            </div>
-            <!-- search -->
-        </div>
-    </section>
-
-    <div class='subview-left left'>
-
-        <div class='view-summary'>
-            <h5>Exceptions</h3>
-                <ul id='exception-collection' class='exception-collection'>
-
-                        <li class='exception displayed active'>
-                            <div class='exception-heading'>
-                                <span class='exception-name'>org.openqa.selenium.WebDriverException</span>
-                                <span class='exception-count right'><span class='label red lighten-1 white-text'>2</span></span>
-                            </div>
-                            <div class='exception-content hide'>
-                                <div class='exception-tests'>
-                                    <table class='bordered table-results'>
-                                        <thead>
-                                        <tr>
-                                            <th>Timestamp</th>
-                                            <th>TestName</th>
-                                            <th>Status</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                                    <tr>
-                                                        <td>Oct 12, 2020 03:43:42 PM</td>
-                                                        <td class='linked' test-id='3'>Handle Dynamic Table.Scenario: Get The Details from Dynamic Table.Given User is on Home Page of Dynamic Table</td>
-                                                        <td><pre><pre>org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
-from disconnected: received Inspector.detached event
-  (Session info: chrome=86.0.4240.75)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'AKSHAY', ip: '192.168.202.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\AKSHAY\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57119}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: ac27b79c02d3f9c3903cd1d3c865532c
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-	at StepDefinations.DynamicTableStepDefination.user_is_on_Home_Page_of_Dynamic_Table(DynamicTableStepDefination.java:23)
-	at ✽.Given User is on Home Page of Dynamic Table(dynamicTable.feature:5)
-</pre></pre></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Oct 12, 2020 03:44:11 PM</td>
-                                                        <td class='linked' test-id='7'>Search and place order for vegitable.Scenario: Serach for vegatble and validate.Given User is on home page</td>
-                                                        <td><pre><pre>org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
-  (Session info: chrome=86.0.4240.75)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'AKSHAY', ip: '192.168.202.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\AKSHAY\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57133}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: fa0252569b9dd788a4de4e6201f0c2e2
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-	at StepDefinations.SearchStepDefination.user_is_on_home_page(SearchStepDefination.java:23)
-	at ✽.Given User is on home page(search.feature:5)
-</pre></pre></td>
-                                                    </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </li>
-                </ul>
-        </div>
-    </div>
-
-    <div class='subview-right left'>
-        <div class='view-summary'>
-            <h5 class='exception-name'></h5>
-        </div>
-    </div>
-</div>
 <!-- exception view -->
 <div id='dashboard-view' class='view hide'>
 	<div class='card-panel transparent np-v'>
@@ -662,19 +515,19 @@ Session ID: fa0252569b9dd788a4de4e6201f0c2e2
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Oct 12, 2020 03:43:42 PM</div>
+					<div class='panel-lead'>Oct 12, 2020 09:47:03 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Oct 12, 2020 03:44:16 PM</div>
+			 		<div class='panel-lead'>Oct 12, 2020 09:47:24 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>34,013ms</div>
+					<div class='panel-lead'>20,763ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -690,14 +543,14 @@ Session ID: fa0252569b9dd788a4de4e6201f0c2e2
 						</tr>
 						<tr>
 							<td>@Pratice</td>
-							<td>0</td>
 							<td>1</td>
+							<td>0</td>
 							<td>0</td>
 						</tr>
 						<tr>
 							<td>@smokeTest</td>
-							<td>0</td>
 							<td>1</td>
+							<td>0</td>
 							<td>0</td>
 						</tr>
 					</table>
@@ -713,22 +566,22 @@ Session ID: fa0252569b9dd788a4de4e6201f0c2e2
 
 		<script>
 			var statusGroup = {
-				passParent: 0,
-				failParent: 2,
+				passParent: 5,
+				failParent: 0,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
-				skipParent: 3,
-				exceptionsParent: 5,
+				skipParent: 0,
+				exceptionsParent: 0,
 				
-				passChild: 0,
-				failChild: 2,
+				passChild: 5,
+				failChild: 0,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
-				skipChild: 3,
+				skipChild: 0,
 				infoChild: 0,
-				exceptionsChild: 5,
+				exceptionsChild: 0,
 				
 				passGrandChild: 0,
 				failGrandChild: 0,

@@ -22,20 +22,6 @@ plugin= {"com.cucumber.listener.ExtentCucumberFormatter:target/html/ExtentReport
 
 
 public class TestRunner {
-	@AfterClass
-    public static void writeExtentReport() throws IOException {
-		FileReader reader=new FileReader("$BASE_DIR\\configs\\Configuration.properties");
-		 
-		 Properties properties=new Properties(); 
-		 properties.load(reader);
-		 String reportConfigPath = properties.getProperty("reportConfigPath");
-		
-        Reporter.loadXMLConfig(reportConfigPath);
-        Reporter.setSystemInfo("User Name", "AJ");
-        Reporter.setSystemInfo("Application Name", "Test App ");
-        Reporter.setSystemInfo("Operating System Type", System.getProperty("os.name").toString());
-        Reporter.setSystemInfo("Environment", "Production");
-        Reporter.setTestRunnerOutput("Test Execution Cucumber Report");
-    }
+	
 
 }

@@ -9,18 +9,21 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
+import com.cucumber.listener.Reporter;
+
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import utilities.Base;
 
-public class SearchStepDefination {
+public class SearchStepDefination extends Base{
 	WebDriver driver;
 
 	@Given("^User is on home page$")
 	public void user_is_on_home_page() throws Throwable {
 		driver = Base.getWebBrowser() ;
 		driver.get("https://rahulshettyacademy.com/seleniumPractise/#/");
+		 
 
 	}
 
@@ -29,6 +32,8 @@ public class SearchStepDefination {
 		driver.findElement(By.xpath("//input[@type=\"search\"]")).sendKeys(vegName);
 		driver.findElement(By.xpath("//button[@type=\"submit\"]")).click() ;
 		Thread.sleep(1000);
+		String path = Base.getScreenshot(driver, "TestScreenShot") ;
+		Reporter.addScreenCaptureFromPath(path);
 
 	}
 
