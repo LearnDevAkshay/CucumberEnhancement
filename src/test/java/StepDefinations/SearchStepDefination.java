@@ -1,8 +1,12 @@
 package StepDefinations;
 
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.List;
+import java.util.Properties;
 
 import org.junit.Assert;
+import org.junit.BeforeClass;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -18,6 +22,8 @@ import utilities.Base;
 
 public class SearchStepDefination extends Base{
 	WebDriver driver;
+	
+	
 
 	@Given("^User is on home page$")
 	public void user_is_on_home_page() throws Throwable {
@@ -42,7 +48,7 @@ public class SearchStepDefination extends Base{
 		
 		String actualName = driver.findElement(By.cssSelector("h4.product-name")).getText() ;
 		System.out.println(actualName + " " + expectedName);
-		//Assert.assertTrue(actualName.contains(expectedName));
+		Assert.assertTrue(actualName.contains(expectedName));
 	
 
 		

@@ -1,7 +1,7 @@
 <extentreports>
   <configuration>
     <!-- report theme --> <!-- standard, dark -->
-    <theme>standard</theme>
+    <theme>dark</theme>
   
     <!-- document encoding -->  <!-- defaults to UTF-8 -->
     <encoding>UTF-8</encoding>
@@ -10,10 +10,10 @@
     <protocol>https</protocol>
     
     <!-- title of the document -->
-    <documentTitle>ToolsQA - Cucumber Framework</documentTitle>
+    <documentTitle>Cucumber Framework</documentTitle>
     
     <!-- report name - displayed at top-nav -->
-    <reportName>ToolsQA - Cucumber Report</reportName>
+    <reportName>Cucumber Framework</reportName>
     
     <!-- global date format override -->  <!-- defaults to yyyy-MM-dd -->
     <dateFormat>yyyy-MM-dd</dateFormat>
