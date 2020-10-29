@@ -47,7 +47,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Oct 18, 2020 11:38:22 AM</span>
+                    <span class='label suite-start-time blue darken-3'>Oct 29, 2020 03:18:09 PM</span>
 				</a>
 			</li>
 			<li>
@@ -72,8 +72,8 @@
 					<i class='material-icons'>warning</i> Status
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
-											<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
-						<li status='skip'><a href='#!'>Skip <i class='material-icons cyan-text'>redo</i></a></li>
+											<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
+						<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -86,7 +86,7 @@
 					<i class='material-icons'>local_offer</i> Category
 				</a>
 				<ul id='category-toggle' class='dropdown-content'>
-					<li><a href='#'>@Run</a></li>
+					<li><a href='#'>@smokeTest</a></li>
 					<li class='divider'></li>
 					<li class='clear'><a href='#!' clear='true'>Clear Filters</a></li>
 				</ul>
@@ -134,10 +134,10 @@
 					<canvas id='parent-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='0%'><span class='strong'>0</span> test(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='66.667%'><span class='strong'>2</span> test(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='50%'>1</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='50%'>1</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='33.333%'>1</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -149,10 +149,10 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='0%'><span class='strong'>0</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='66.667%'><span class='strong'>2</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='50%'>1</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='50%'>1</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='33.333%'>1</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -169,31 +169,90 @@
 				
 				<li class='test displayed active has-leaf fail' status='fail' bdd='false' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>Read Write The Excel</span>
-						<span class='test-time'>Oct 18, 2020 11:38:22 AM</span>
+						<span class='test-name'>Search and place order for vegitable</span>
+						<span class='test-time'>Oct 29, 2020 03:18:09 PM</span>
 						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Oct 18, 2020 11:38:22 AM</span>
-	<span class='label end-time'>Oct 18, 2020 11:38:22 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+292ms</span>
+	<span class='label start-time'>Oct 29, 2020 03:18:09 PM</span>
+	<span class='label end-time'>Oct 29, 2020 03:18:27 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 17s+725ms</span>
 </div>
 	<ul class='collapsible node-list' data-collapsible='accordion'>
 		
 				<li class='node level-1  fail' status='fail' test-id='2'>
 					<div class='collapsible-header'>
-						<div class='node-name'>Scenario: Read The Data From Excel</div>						
-						<span class='node-time'>Oct 18, 2020 11:38:22 AM</span>
-						<span class='node-duration'>0h 0m 0s+222ms</span>
+						<div class='node-name'>Scenario: Serach for vegatble and validate</div>						
+						<span class='node-time'>Oct 29, 2020 03:18:09 PM</span>
+						<span class='node-duration'>0h 0m 17s+637ms</span>
 						<span class='test-status right fail'>fail</span>
 					</div>
 						<ul class='collapsible node-list' data-collapsible='accordion'>
-				<li class='node level-2 leaf fail' status='fail' test-id='3'>
+				<li class='node level-2 leaf pass' status='pass' test-id='3'>
 					<div class='collapsible-header'>
-						<div class='node-name'>Given Setup the excel</div>						
-						<span class='node-time'>Oct 18, 2020 11:38:22 AM</span>
-						<span class='node-duration'>0h 0m 0s+196ms</span>
+						<div class='node-name'>Given User is on home page</div>						
+						<span class='node-time'>Oct 29, 2020 03:18:09 PM</span>
+						<span class='node-duration'>0h 0m 15s+267ms</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+						<div class='collapsible-body'>
+								<div class='node-steps'>
+									<table class='bordered table-results'>
+										<thead>
+											<tr>
+												<th>Status</th>
+												<th>Timestamp</th>
+												<th>Details</th>
+											</tr>
+										</thead>
+										<tbody>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>3:18:24 PM</td>
+													<td class='step-details'>passed</td>
+												</tr>
+										</tbody>
+									</table>
+								</div>
+						</div>
+				</li>
+				<li class='node level-2 leaf pass' status='pass' test-id='4'>
+					<div class='collapsible-header'>
+						<div class='node-name'>When User enter the "Cucumber" in search box</div>						
+						<span class='node-time'>Oct 29, 2020 03:18:24 PM</span>
+						<span class='node-duration'>0h 0m 2s+273ms</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+						<div class='collapsible-body'>
+								<div class='node-steps'>
+									<table class='bordered table-results'>
+										<thead>
+											<tr>
+												<th>Status</th>
+												<th>Timestamp</th>
+												<th>Details</th>
+											</tr>
+										</thead>
+										<tbody>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>3:18:27 PM</td>
+													<td class='step-details'>passed</td>
+												</tr>
+										</tbody>
+									</table>
+										<ul class='screenshots'>
+												<li><img data-featherlight='C:\Users\AKSHAY\eclipse-workspace\Cucumber_Framework_Design/FailedTestsScreenshots/TestScreenShot20201029031826.png' width='10%' src='' data-src='C:\Users\AKSHAY\eclipse-workspace\Cucumber_Framework_Design/FailedTestsScreenshots/TestScreenShot20201029031826.png'></li>
+										</ul>
+								</div>
+						</div>
+				</li>
+				<li class='node level-2 leaf fail' status='fail' test-id='5'>
+					<div class='collapsible-header'>
+						<div class='node-name'>Then "Carrot" result should be dispalyed</div>						
+						<span class='node-time'>Oct 29, 2020 03:18:27 PM</span>
+						<span class='node-duration'>0h 0m 0s+68ms</span>
 						<span class='test-status right fail'>fail</span>
 					</div>
 						<div class='collapsible-body'>
@@ -209,87 +268,14 @@
 										<tbody>
 												<tr class='log' status='fail'>
 													<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-													<td class='timestamp'>11:38:22 AM</td>
-													<td class='step-details'><pre>java.lang.NoClassDefFoundError: org/apache/xmlbeans/XmlObject
-	at utilities.ExcelReadWrite.setupExcel(ExcelReadWrite.java:29)
-	at StepDefinations.ExcelReadWriteCheckStepDefination.setup_the_excel(ExcelReadWriteCheckStepDefination.java:11)
-	at ✽.Given Setup the excel(ReadWriteExcel.feature:5)
-Caused by: java.lang.ClassNotFoundException: org.apache.xmlbeans.XmlObject
-	at java.net.URLClassLoader.findClass(Unknown Source)
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	at utilities.ExcelReadWrite.setupExcel(ExcelReadWrite.java:29)
-	at StepDefinations.ExcelReadWriteCheckStepDefination.setup_the_excel(ExcelReadWriteCheckStepDefination.java:11)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at cucumber.runtime.Utils$1.call(Utils.java:40)
-	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
-	at cucumber.runtime.Utils.invoke(Utils.java:34)
-	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
-	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
-	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
-	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
-	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
-	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
-	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)
-	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
-	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+													<td class='timestamp'>3:18:27 PM</td>
+													<td class='step-details'><pre>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at StepDefinations.SearchStepDefination.result_should_be_dispalyed(SearchStepDefination.java:51)
+	at ✽.Then "Carrot" result should be dispalyed(search.feature:7)
 </pre></td>
-												</tr>
-										</tbody>
-									</table>
-								</div>
-						</div>
-				</li>
-				<li class='node level-2 leaf skip' status='skip' test-id='4'>
-					<div class='collapsible-header'>
-						<div class='node-name'>Then read the value</div>						
-						<span class='node-time'>Oct 18, 2020 11:38:22 AM</span>
-						<span class='node-duration'>0h 0m 0s+2ms</span>
-						<span class='test-status right skip'>skip</span>
-					</div>
-						<div class='collapsible-body'>
-								<div class='node-steps'>
-									<table class='bordered table-results'>
-										<thead>
-											<tr>
-												<th>Status</th>
-												<th>Timestamp</th>
-												<th>Details</th>
-											</tr>
-										</thead>
-										<tbody>
-												<tr class='log' status='skip'>
-													<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
-													<td class='timestamp'>11:38:22 AM</td>
-													<td class='step-details'>skipped</td>
 												</tr>
 										</tbody>
 									</table>
@@ -353,7 +339,7 @@ Caused by: java.lang.ClassNotFoundException: org.apache.xmlbeans.XmlObject
 				
 				<li class='category displayed active'>
 					<div class='category-heading'>
-						<span class='category-name'>@Run</span>
+						<span class='category-name'>@smokeTest</span>
 						<span class='category-status right'>
 							<span class='label fail'>1</span>
 						</span>
@@ -376,8 +362,8 @@ Caused by: java.lang.ClassNotFoundException: org.apache.xmlbeans.XmlObject
 								</thead>
 								<tbody>
 									<tr>
-										<td>Oct 18, 2020 11:38:22 AM</td>
-										<td class='linked' test-id='2'>Read Write The Excel.Scenario: Read The Data From Excel</td>
+										<td>Oct 29, 2020 03:18:09 PM</td>
+										<td class='linked' test-id='2'>Search and place order for vegitable.Scenario: Serach for vegatble and validate</td>
 										<td><span class='test-status fail'>fail</span></td>
 									</tr>
 								</tbody>
@@ -424,7 +410,7 @@ Caused by: java.lang.ClassNotFoundException: org.apache.xmlbeans.XmlObject
 
                         <li class='exception displayed active'>
                             <div class='exception-heading'>
-                                <span class='exception-name'>java.lang.NoClassDefFoundError</span>
+                                <span class='exception-name'>java.lang.AssertionError</span>
                                 <span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
                             </div>
                             <div class='exception-content hide'>
@@ -439,59 +425,14 @@ Caused by: java.lang.ClassNotFoundException: org.apache.xmlbeans.XmlObject
                                         </thead>
                                         <tbody>
                                                     <tr>
-                                                        <td>Oct 18, 2020 11:38:22 AM</td>
-                                                        <td class='linked' test-id='3'>Read Write The Excel.Scenario: Read The Data From Excel.Given Setup the excel</td>
-                                                        <td><pre><pre>java.lang.NoClassDefFoundError: org/apache/xmlbeans/XmlObject
-	at utilities.ExcelReadWrite.setupExcel(ExcelReadWrite.java:29)
-	at StepDefinations.ExcelReadWriteCheckStepDefination.setup_the_excel(ExcelReadWriteCheckStepDefination.java:11)
-	at ✽.Given Setup the excel(ReadWriteExcel.feature:5)
-Caused by: java.lang.ClassNotFoundException: org.apache.xmlbeans.XmlObject
-	at java.net.URLClassLoader.findClass(Unknown Source)
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	at utilities.ExcelReadWrite.setupExcel(ExcelReadWrite.java:29)
-	at StepDefinations.ExcelReadWriteCheckStepDefination.setup_the_excel(ExcelReadWriteCheckStepDefination.java:11)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at cucumber.runtime.Utils$1.call(Utils.java:40)
-	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
-	at cucumber.runtime.Utils.invoke(Utils.java:34)
-	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
-	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
-	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
-	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
-	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
-	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
-	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)
-	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
-	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+                                                        <td>Oct 29, 2020 03:18:27 PM</td>
+                                                        <td class='linked' test-id='5'>Search and place order for vegitable.Scenario: Serach for vegatble and validate.Then "Carrot" result should be dispalyed</td>
+                                                        <td><pre><pre>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at StepDefinations.SearchStepDefination.result_should_be_dispalyed(SearchStepDefination.java:51)
+	at ✽.Then "Carrot" result should be dispalyed(search.feature:7)
 </pre></pre></td>
                                                     </tr>
                                         </tbody>
@@ -518,31 +459,31 @@ Caused by: java.lang.ClassNotFoundException: org.apache.xmlbeans.XmlObject
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Tests
-					<div class='panel-lead'>2</div>
+					<div class='panel-lead'>3</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>2</div>
+					<div class='panel-lead'>3</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Oct 18, 2020 11:38:22 AM</div>
+					<div class='panel-lead'>Oct 29, 2020 03:18:09 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Oct 18, 2020 11:38:22 AM</div>
+			 		<div class='panel-lead'>Oct 29, 2020 03:18:28 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>437ms</div>
+					<div class='panel-lead'>18,688ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -585,7 +526,7 @@ Caused by: java.lang.ClassNotFoundException: org.apache.xmlbeans.XmlObject
 							<th>Others</th>
 						</tr>
 						<tr>
-							<td>@Run</td>
+							<td>@smokeTest</td>
 							<td>0</td>
 							<td>1</td>
 							<td>0</td>
@@ -612,22 +553,22 @@ Caused by: java.lang.ClassNotFoundException: org.apache.xmlbeans.XmlObject
 
 		<script>
 			var statusGroup = {
-				passParent: 0,
+				passParent: 2,
 				failParent: 1,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
-				skipParent: 1,
-				exceptionsParent: 2,
+				skipParent: 0,
+				exceptionsParent: 1,
 				
-				passChild: 0,
+				passChild: 2,
 				failChild: 1,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
-				skipChild: 1,
+				skipChild: 0,
 				infoChild: 0,
-				exceptionsChild: 2,
+				exceptionsChild: 1,
 				
 				passGrandChild: 0,
 				failGrandChild: 0,

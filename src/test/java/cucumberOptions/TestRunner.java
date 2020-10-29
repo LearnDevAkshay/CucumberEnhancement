@@ -19,7 +19,7 @@ import com.cucumber.listener.Reporter;
 features="src/test/java/features",
 glue="StepDefinations",
 dryRun=false,
-tags = {"@Run"},
+tags = {"@smokeTest"},
 plugin= {"com.cucumber.listener.ExtentCucumberFormatter:target/html/ExtentReport.html"}
         )
 
