@@ -32,7 +32,6 @@
 		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
 			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
 						<li class='waves-effect'><a href='#!' view='category-view' onclick="configureView(1)"><i class='material-icons'>label_outline</i></a></li>
-			<li class='waves-effect'><a href='#!' view='exception-view' onclick="configureView(2)"><i class='material-icons'>bug_report</i></a></li>
 			<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></i></a></li>
 			<li class='waves-effect'><a href='#!' onclick="configureView(-1)" view='testrunner-logs-view'><i class='material-icons'>note</i></a></li>
 		</ul>
@@ -47,7 +46,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Oct 29, 2020 03:18:09 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Dec 31, 2020 09:55:16 AM</span>
 				</a>
 			</li>
 			<li>
@@ -73,7 +72,6 @@
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
 											<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
-						<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -134,10 +132,10 @@
 					<canvas id='parent-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='66.667%'><span class='strong'>2</span> test(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>5</span> test(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='33.333%'>1</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -149,10 +147,10 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='66.667%'><span class='strong'>2</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>5</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='33.333%'>1</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -167,33 +165,33 @@
 			<ul id='test-collection' class='test-collection'>
 				
 				
-				<li class='test displayed active has-leaf fail' status='fail' bdd='false' test-id='1'>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>Search and place order for vegitable</span>
-						<span class='test-time'>Oct 29, 2020 03:18:09 PM</span>
-						<span class='test-status right fail'>fail</span>
+						<span class='test-name'>Handle Dynamic Table</span>
+						<span class='test-time'>Dec 31, 2020 09:55:16 AM</span>
+						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Oct 29, 2020 03:18:09 PM</span>
-	<span class='label end-time'>Oct 29, 2020 03:18:27 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 17s+725ms</span>
+	<span class='label start-time'>Dec 31, 2020 09:55:16 AM</span>
+	<span class='label end-time'>Dec 31, 2020 09:55:25 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 8s+896ms</span>
 </div>
 	<ul class='collapsible node-list' data-collapsible='accordion'>
 		
-				<li class='node level-1  fail' status='fail' test-id='2'>
+				<li class='node level-1  pass' status='pass' test-id='2'>
 					<div class='collapsible-header'>
-						<div class='node-name'>Scenario: Serach for vegatble and validate</div>						
-						<span class='node-time'>Oct 29, 2020 03:18:09 PM</span>
-						<span class='node-duration'>0h 0m 17s+637ms</span>
-						<span class='test-status right fail'>fail</span>
+						<div class='node-name'>Scenario: Get The Details from Dynamic Table</div>						
+						<span class='node-time'>Dec 31, 2020 09:55:16 AM</span>
+						<span class='node-duration'>0h 0m 8s+855ms</span>
+						<span class='test-status right pass'>pass</span>
 					</div>
 						<ul class='collapsible node-list' data-collapsible='accordion'>
 				<li class='node level-2 leaf pass' status='pass' test-id='3'>
 					<div class='collapsible-header'>
-						<div class='node-name'>Given User is on home page</div>						
-						<span class='node-time'>Oct 29, 2020 03:18:09 PM</span>
-						<span class='node-duration'>0h 0m 15s+267ms</span>
+						<div class='node-name'>Given User is on Home Page of Dynamic Table</div>						
+						<span class='node-time'>Dec 31, 2020 09:55:16 AM</span>
+						<span class='node-duration'>0h 0m 7s+853ms</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 						<div class='collapsible-body'>
@@ -209,7 +207,7 @@
 										<tbody>
 												<tr class='log' status='pass'>
 													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-													<td class='timestamp'>3:18:24 PM</td>
+													<td class='timestamp'>9:55:24 AM</td>
 													<td class='step-details'>passed</td>
 												</tr>
 										</tbody>
@@ -219,9 +217,9 @@
 				</li>
 				<li class='node level-2 leaf pass' status='pass' test-id='4'>
 					<div class='collapsible-header'>
-						<div class='node-name'>When User enter the "Cucumber" in search box</div>						
-						<span class='node-time'>Oct 29, 2020 03:18:24 PM</span>
-						<span class='node-duration'>0h 0m 2s+273ms</span>
+						<div class='node-name'>Then Get the Details</div>						
+						<span class='node-time'>Dec 31, 2020 09:55:24 AM</span>
+						<span class='node-duration'>0h 0m 0s+989ms</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 						<div class='collapsible-body'>
@@ -237,23 +235,49 @@
 										<tbody>
 												<tr class='log' status='pass'>
 													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-													<td class='timestamp'>3:18:27 PM</td>
+													<td class='timestamp'>9:55:25 AM</td>
 													<td class='step-details'>passed</td>
 												</tr>
 										</tbody>
 									</table>
-										<ul class='screenshots'>
-												<li><img data-featherlight='C:\Users\AKSHAY\eclipse-workspace\Cucumber_Framework_Design/FailedTestsScreenshots/TestScreenShot20201029031826.png' width='10%' src='' data-src='C:\Users\AKSHAY\eclipse-workspace\Cucumber_Framework_Design/FailedTestsScreenshots/TestScreenShot20201029031826.png'></li>
-										</ul>
 								</div>
 						</div>
 				</li>
-				<li class='node level-2 leaf fail' status='fail' test-id='5'>
+						</ul>
+				</li>
+	</ul>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='5'>
+					<div class='test-heading'>
+						<span class='test-name'>Search and place order for vegitable</span>
+						<span class='test-time'>Dec 31, 2020 09:55:25 AM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 31, 2020 09:55:25 AM</span>
+	<span class='label end-time'>Dec 31, 2020 09:55:31 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 6s+275ms</span>
+</div>
+	<ul class='collapsible node-list' data-collapsible='accordion'>
+		
+				<li class='node level-1  pass' status='pass' test-id='6'>
 					<div class='collapsible-header'>
-						<div class='node-name'>Then "Carrot" result should be dispalyed</div>						
-						<span class='node-time'>Oct 29, 2020 03:18:27 PM</span>
-						<span class='node-duration'>0h 0m 0s+68ms</span>
-						<span class='test-status right fail'>fail</span>
+						<div class='node-name'>Scenario: Serach for vegatble and validate</div>						
+						<span class='node-time'>Dec 31, 2020 09:55:25 AM</span>
+						<span class='node-duration'>0h 0m 6s+274ms</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+						<ul class='collapsible node-list' data-collapsible='accordion'>
+				<li class='node level-2 leaf pass' status='pass' test-id='7'>
+					<div class='collapsible-header'>
+						<div class='node-name'>Given User is on home page</div>						
+						<span class='node-time'>Dec 31, 2020 09:55:25 AM</span>
+						<span class='node-duration'>0h 0m 4s+210ms</span>
+						<span class='test-status right pass'>pass</span>
 					</div>
 						<div class='collapsible-body'>
 								<div class='node-steps'>
@@ -266,16 +290,69 @@
 											</tr>
 										</thead>
 										<tbody>
-												<tr class='log' status='fail'>
-													<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-													<td class='timestamp'>3:18:27 PM</td>
-													<td class='step-details'><pre>java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at StepDefinations.SearchStepDefination.result_should_be_dispalyed(SearchStepDefination.java:51)
-	at ✽.Then "Carrot" result should be dispalyed(search.feature:7)
-</pre></td>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>9:55:29 AM</td>
+													<td class='step-details'>passed</td>
+												</tr>
+										</tbody>
+									</table>
+								</div>
+						</div>
+				</li>
+				<li class='node level-2 leaf pass' status='pass' test-id='8'>
+					<div class='collapsible-header'>
+						<div class='node-name'>When User enter the "Cucumber" in search box</div>						
+						<span class='node-time'>Dec 31, 2020 09:55:29 AM</span>
+						<span class='node-duration'>0h 0m 2s+32ms</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+						<div class='collapsible-body'>
+								<div class='node-steps'>
+									<table class='bordered table-results'>
+										<thead>
+											<tr>
+												<th>Status</th>
+												<th>Timestamp</th>
+												<th>Details</th>
+											</tr>
+										</thead>
+										<tbody>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>9:55:31 AM</td>
+													<td class='step-details'>passed</td>
+												</tr>
+										</tbody>
+									</table>
+										<ul class='screenshots'>
+												<li><img data-featherlight='C:\Users\AKSHAY\eclipse-workspace\Cucumber_Framework_Design/FailedTestsScreenshots/TestScreenShot20201231095530.png' width='10%' src='' data-src='C:\Users\AKSHAY\eclipse-workspace\Cucumber_Framework_Design/FailedTestsScreenshots/TestScreenShot20201231095530.png'></li>
+										</ul>
+								</div>
+						</div>
+				</li>
+				<li class='node level-2 leaf pass' status='pass' test-id='9'>
+					<div class='collapsible-header'>
+						<div class='node-name'>Then "Cucumber" result should be dispalyed</div>						
+						<span class='node-time'>Dec 31, 2020 09:55:31 AM</span>
+						<span class='node-duration'>0h 0m 0s+29ms</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+						<div class='collapsible-body'>
+								<div class='node-steps'>
+									<table class='bordered table-results'>
+										<thead>
+											<tr>
+												<th>Status</th>
+												<th>Timestamp</th>
+												<th>Details</th>
+											</tr>
+										</thead>
+										<tbody>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>9:55:31 AM</td>
+													<td class='step-details'>passed</td>
 												</tr>
 										</tbody>
 									</table>
@@ -341,13 +418,13 @@
 					<div class='category-heading'>
 						<span class='category-name'>@smokeTest</span>
 						<span class='category-status right'>
-							<span class='label fail'>1</span>
+							<span class='label pass'>2</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
+							<span class='label green accent-4 white-text'>Passed: 2</span>
 							
-							<span class='label red lighten-1 white-text'>Failed: 1</span>
 							
 						</div>
 					
@@ -362,9 +439,14 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Oct 29, 2020 03:18:09 PM</td>
-										<td class='linked' test-id='2'>Search and place order for vegitable.Scenario: Serach for vegatble and validate</td>
-										<td><span class='test-status fail'>fail</span></td>
+										<td>Dec 31, 2020 09:55:16 AM</td>
+										<td class='linked' test-id='2'>Handle Dynamic Table.Scenario: Get The Details from Dynamic Table</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Dec 31, 2020 09:55:25 AM</td>
+										<td class='linked' test-id='6'>Search and place order for vegitable.Scenario: Serach for vegatble and validate</td>
+										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
 							</table>
@@ -383,73 +465,6 @@
 	</div>
 </div>
 <!-- category view -->
-<div id='exception-view' class='view hide'>
-
-    <section id='controls'>
-        <div class='controls grey lighten-4'>
-            <!-- search -->
-            <div class='chip transparent' alt='Search Tests' title='Search Tests'>
-                <a href="#" class='search-div'>
-                    <i class='material-icons'>search</i> Search
-                </a>
-
-                <div class='input-field left hide'>
-                    <input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
-                </div>
-
-            </div>
-            <!-- search -->
-        </div>
-    </section>
-
-    <div class='subview-left left'>
-
-        <div class='view-summary'>
-            <h5>Exceptions</h3>
-                <ul id='exception-collection' class='exception-collection'>
-
-                        <li class='exception displayed active'>
-                            <div class='exception-heading'>
-                                <span class='exception-name'>java.lang.AssertionError</span>
-                                <span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
-                            </div>
-                            <div class='exception-content hide'>
-                                <div class='exception-tests'>
-                                    <table class='bordered table-results'>
-                                        <thead>
-                                        <tr>
-                                            <th>Timestamp</th>
-                                            <th>TestName</th>
-                                            <th>Status</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                                    <tr>
-                                                        <td>Oct 29, 2020 03:18:27 PM</td>
-                                                        <td class='linked' test-id='5'>Search and place order for vegitable.Scenario: Serach for vegatble and validate.Then "Carrot" result should be dispalyed</td>
-                                                        <td><pre><pre>java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at StepDefinations.SearchStepDefination.result_should_be_dispalyed(SearchStepDefination.java:51)
-	at ✽.Then "Carrot" result should be dispalyed(search.feature:7)
-</pre></pre></td>
-                                                    </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </li>
-                </ul>
-        </div>
-    </div>
-
-    <div class='subview-right left'>
-        <div class='view-summary'>
-            <h5 class='exception-name'></h5>
-        </div>
-    </div>
-</div>
 <!-- exception view -->
 <div id='dashboard-view' class='view hide'>
 	<div class='card-panel transparent np-v'>
@@ -459,31 +474,31 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Tests
-					<div class='panel-lead'>3</div>
+					<div class='panel-lead'>5</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>3</div>
+					<div class='panel-lead'>5</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Oct 29, 2020 03:18:09 PM</div>
+					<div class='panel-lead'>Dec 31, 2020 09:55:16 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Oct 29, 2020 03:18:28 PM</div>
+			 		<div class='panel-lead'>Dec 31, 2020 09:55:31 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>18,688ms</div>
+					<div class='panel-lead'>15,689ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -527,8 +542,8 @@
 						</tr>
 						<tr>
 							<td>@smokeTest</td>
+							<td>2</td>
 							<td>0</td>
-							<td>1</td>
 							<td>0</td>
 						</tr>
 					</table>
@@ -553,22 +568,22 @@
 
 		<script>
 			var statusGroup = {
-				passParent: 2,
-				failParent: 1,
+				passParent: 5,
+				failParent: 0,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				exceptionsParent: 1,
+				exceptionsParent: 0,
 				
-				passChild: 2,
-				failChild: 1,
+				passChild: 5,
+				failChild: 0,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
 				skipChild: 0,
 				infoChild: 0,
-				exceptionsChild: 1,
+				exceptionsChild: 0,
 				
 				passGrandChild: 0,
 				failGrandChild: 0,

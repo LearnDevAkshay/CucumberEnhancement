@@ -12,7 +12,7 @@ import com.cucumber.listener.Reporter;
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
-import utilities.Base;
+import Setup.Base;
 
 public class Hooks extends Base {
 
@@ -25,12 +25,14 @@ public class Hooks extends Base {
 
 		if (scenario.isFailed()) {
 			
-		// String path = Base.getScreenshot(driver, "FailScreenshot") ;
+		//String path = Base.getScreenshot(driver, "FailScreenshot") ;
 		 //Reporter.addScreenCaptureFromPath(path);
 
 		}
+		driver.close();
 
 	}
+
 	@Before
 	public void setup() throws IOException {
 		

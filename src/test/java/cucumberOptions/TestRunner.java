@@ -25,15 +25,16 @@ plugin= {"com.cucumber.listener.ExtentCucumberFormatter:target/html/ExtentReport
 
 
 public class TestRunner {
-
-
 	@BeforeClass
 	public static void writeExtentReport() throws IOException {
 
 		System.out.println("Before Class");
+	}
+
+	
 		
 	
-}
+
 	@AfterClass
 	public static void tearDown() throws IOException {
 		System.out.println("After Class");
